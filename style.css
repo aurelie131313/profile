@@ -1,0 +1,128 @@
+body, h3 {
+  font-family: 'Nunito Sans', sans-serif;
+  text-decoration: none;
+}
+
+h1{
+  font-family: 'Libre BaskerVille', sans-serif;
+  font-size : 23 px ;
+  color: #5E225C;
+  text-align: center
+}
+
+h2{
+  color: #480032;
+  font-size: 20 px;
+  font-family: 'Libre BaskerVille', bold;
+  align-items: center;
+  text-decoration: underline;
+  text-align: center
+}
+h3{
+  font-family: 'Nunito Sans', bold;
+  font-size: 14 px;
+  text-align: center;
+}
+
+p {
+  line-height: 20 px;
+}
+
+.card-white{
+background: #F7F9FC;
+padding: 30px;
+border-radius: 30px;
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+margin: 0 auto;
+
+}
+
+.img-circle{
+  border-radius: 30%;
+  text-align: center;
+}
+.shadowed{
+  box-shadow: 2px 2px 2px grey;
+}
+
+a{
+  color: #0E1428;
+  text-decoration: underline;
+}
+
+a:hover{
+   color: red;
+}
+
+.btn-blue{
+  border: 1px solid #5588A3;
+  background-color: #5588A3;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  text-align: center;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+
+
+.fab{
+  text-align: center;
+  color: grey;
+  font-size: 20px;
+  padding: 20px;
+}
+.fab:hover{
+  color: red;
+}
+.fas{
+  text-align: center;
+  color: grey;
+  font-size: 20px;
+  padding: 20px;
+}
+.fas:hover{
+  color: red;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+.container {
+  margin: 0 auto;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
